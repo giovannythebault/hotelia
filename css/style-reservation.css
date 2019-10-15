@@ -1,0 +1,48 @@
+#backgroundReserva{
+    background-color: black;
+    height: 250px;
+}
+#container-reservation{
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 200px;
+    font-size: 25px;
+}
+#calendriers{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 100px;  
+}
+.calendrier>span{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.637);
+}
+#boutpreser{
+    margin: 80px 700px;
+}
+
+#boutpreser>a{
+padding: 15px;
+text-decoration: none;
+background-color: black;
+color: white;
+border: 1px solid goldenrod;
+}
+
+.ui-datepicker{
+    margin-top: 20px;
+    width: 600px;  
+}
+.ui-datepicker-header{
+    background-color: rgba(218, 165, 32, 0.527);
+}
+.ui-datepicker-prev , .ui-datepicker-next{
+    background-color: white;
+}
+.ui-datepicker-calendar{
+    line-height: 50px;
+    height: 400px;
+}
+

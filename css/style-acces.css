@@ -1,0 +1,39 @@
+.acces-hotelia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.acces-hotelia>h2{
+    font-size: 30px;
+    color: goldenrod;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+#num-acces{
+    margin-top:20px;
+    font-size: 20px;
+}
+#carte-google{
+    margin: 30px 300px;
+}
+#carte-google>iframe{
+    width: 1200px;
+    height: 600px;
+}
+#conteneurCommentVenir{
+    display: flex;
+}
+.comment-venir{
+    margin: 20px 15px;
+    flex-direction: column;
+}
+.comment-venir>h3{
+    font-size: 25px;
+}
+.comment-venir>p{
+    margin-top: 10px;
+}
+#footer-acces{
+    height: 450px;
+}

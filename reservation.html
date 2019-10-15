@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Découvrez nos plus belles suites et chambres, dans un palace parisien 5 étoiles" />
+    <meta name="keywords" content="Chambres,Hotel,Luxe,Spa,Paris,Restaurant,Palace,Suites,Confort,Deluxe" />
+    <meta name="author" content="Giovanny & Mickael" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reservation Paris</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-reservation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Menu principal -->
+    <div id="backgroundReserva">
+        <div id="main-image">
+
+            <nav id="main-menu">
+                <figure class="logo">
+                    <a href="index.html"><img src="images/logo_vrai.png" alt="logo_hotelia"></a>
+                </figure>
+                <div class="container">
+                    <div class="menu-principal">
+                        <button class="dropbtn"><span class="glyphicon glyphicon-align-justify"></span></button>
+                        <div class="dropdown-content special">
+                            <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+                            <a href="acces.html">Accès</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="evenement.html">Evènement</a>
+                            <a href="presse.html">Presse</a>
+                            <a href="actualités.html">Actualités</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-principal-droite">
+                    <a class="dropbtn" href="chambres.html">Chambres</a>
+                    <div class="dropdown-content">
+                        <a href="classique.html">Classique</a>
+                        <a href="confort.html">Confort</a>
+                        <a href="deluxe.html">Deluxe</a>
+                        <a href="suite.html">Suite</a>
+                    </div>
+                </div>
+                <div class="menu-principal-droite">
+                    <a class="dropbtn" href="chambres.html">Restaurant</a>
+                    <div class="dropdown-content">
+                        <a href="restaurant.html">Carte Déjeuner</a>
+                        <a href="restaurant.html">Carte Tea Time</a>
+                        <a href="restaurant.html">Carte Diner</a>
+                    </div>
+                </div>
+                <div class="menu-principal-droite">
+                    <a class="dropbtn" href="chambres.html">Spa</a>
+                    <div class="dropdown-content">
+                        <a href="soins-spa.html">Soins Détente</a>
+                        <a href="soins-spa.html">Soins Découverte</a>
+                        <a href="soins-spa.html">Soins Relaxant</a>
+                        <a href="soins-spa.html">Soins Plaisir</a>
+                        <a href="soins-spa.html">Soins Evasion</a>
+                    </div>
+                </div>
+                <a class="dropbtn boutton-d" href="chambres.html">Contact</a>
+                <a class="dropbtn boutton-d" href="chambres.html">Réservation</a>
+                <a class="dropbtn boutton-d" href="chambres.html">Panier</a>
+                <a class="dropbtn boutton-d" href="chambres.html">FR</a>
+                <a class="dropbtn boutton-d" href="chambres.html">Loupe</a>
+            </nav>
+
+        </div>
+    </div>
+    <!-- section principal -->
+    <main>
+        <div id="container-reservation">
+            <div class="chambres-page-reservation">
+                <label>Sélectionnez une chambre</label>
+                <select>
+                    <option selected="selected" value="1">classique</option>
+                    <option value="2">confort</option>
+                    <option value="3">deluxe</option>
+                    <option value="4">suite</option>
+
+                </select>
+            </div>
+            <div class="adultes">
+                <label>Adultes</label>
+                <select>
+                    <option selected="selected" value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="enfants">
+                <label>Enfants</label>
+                <select>
+                    <option selected="selected" value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+        </div>
+        <div id="calendriers">
+            <div id="arrivee" class="calendrier"><span>Date d'arrivée :</span></div>
+            <div id="depart" class="calendrier"><span>Date de départ :</span></div>
+        </div>
+        <div id="boutpreser">
+            <a href="" id="boutPageReserv">Vérifier la disponibilité</a>
+        </div>
+        <hr>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container-footer">
+
+            <div class="footer-gauche">
+                <p><i class="fas fa-gavel"></i><a href="">Mentions légales</a></p>
+                <p><i class="far fa-file-alt"></i><a href="">&nbsp;Conditions générales d'utilisation</a></p>
+                <p><i class="fas fa-user-secret"></i><a href="">&nbsp;Politique de confidentialité</a></p>
+                <p><i class="far fa-newspaper"></i><a href="">Newsletter</a></p>
+                <p><i class="fas fa-print"></i><a href="javascript:window.print()">Imprimer</a></p>
+            </div>
+            <div class="footer-droit">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20997.199182181797!2d2.2842744264858506!3d48.86488612442522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0b743c25%3A0xf7293b466460cc38!2s1.+Avenue+Montaigne%2C+75008+Paris!5e0!3m2!1sfr!2sfr!4v1552483616815"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="num">
+                    <p>Téléphone: 01.48.53.10.10</p>
+                </div>
+            </div>
+        </div>
+        <div class="division"></div>
+        <div class="container-footer">
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                <a href=""><i class="fas fa-share-alt"></i></a>
+            </div>
+
+            <div class="copyright">
+                <h4>© 2019 HOTELIA BY Mickael & Giovanny</h4>
+                <h5>ce site n'a aucun but commercial, il est réalisé dans le cardre d'un atelier pédagogique
+                    d'intégration web au sein de l'organisme de formation Ifocop</h5>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('.calendrier').datepicker({
+                minDate: 0,
+                onSelect: function (date) {
+                    var option;
+                    if (this.id == 'arrivee') {
+                        option = 'minDate';
+                    } else {
+                        option = 'maxDate';
+                    }
+                    $('.calendrier').not('#' + this.id).datepicker('option', option, date);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

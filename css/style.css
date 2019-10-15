@@ -1,0 +1,706 @@
+/* Menu principal */
+#main-image{
+    position: relative;
+}
+h1 {
+    font-size: 55px;
+}
+img {
+    width: 100%;
+} 
+/* MENU */
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 44%
+}
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#main-menu {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    background-color: transparent;
+    z-index: 1;
+    /* border-bottom: 1px solid white; */
+}
+#main-menu a {
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+}
+.dropbtn:hover > a {
+    color: goldenrod;
+} 
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.dropbtn>span {
+    color: white;
+}
+  /* The container <div> - needed to position the dropdown content */
+.menu-principal{
+    position: relative;
+    display: inline-block;   
+}
+.menu-principal-droite{
+    position: relative;
+    display: inline-block;
+    margin-top: 16px;
+} 
+.menu-principal-droite a{
+    text-decoration: none;
+} 
+  /* Dropdown Content (Hidden by Default) */
+.special {
+    margin-top: 18px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 32px;
+    background-color: rgba(0, 0, 0, 0.644);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content .special {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.644);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content:hover {
+    background-color: rgba(0, 0, 0, 0.644);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: goldenrod;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+.dropdown-content .special a {
+    color: goldenrod;
+    padding: 16px 36px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+  /* Show the dropdown menu on hover */
+.menu-principal:hover .dropdown-content {
+    display: block;
+} 
+.menu-principal-droite:hover .dropdown-content {
+    display: block;
+} 
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.menu-principal-droite:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: goldenrod;
+}
+.boutton-d:hover  {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: goldenrod;
+}
+.menu-principal:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: goldenrod;
+}
+.menu-principal:hover .dropbtn .glyphicon{
+    color: goldenrod;
+}
+.menu-principal:hover span{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+/* Slider de l'hotel */
+#myCarousel {
+    width: 100%;
+}
+.carousel-inner > .item {
+    transition-duration: 1s;
+}
+.carousel-inner a {
+    text-decoration: none;
+}
+.carousel-inner a:hover {
+    color: white;
+}
+#slide1, #slide2, #slide3, #slide4 {
+    height: 93vh;
+}
+.carousel-caption{ 
+    margin: 350px;
+}
+h3{ 
+    font-size: 40px;
+}
+.carousel-caption>small{
+    font-size: 20px;
+}
+.boutton-slider{ 
+    padding: 15px ;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 200px;
+    left: 44.5%;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    color: goldenrod; 
+}
+.boutton-slider{ 
+    padding: 15px 5px;
+    color: goldenrod;
+}
+/* Contenu slider  */
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+.principal>span {
+    width: 400px;
+    padding-top: 40px;
+}
+.p-principal {
+    width :40%;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.p-principal>p {
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: justify;
+}
+/* Menu secondaire */
+#menu-secondaire{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#menu-secondaire li{
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px 30px;
+    border-bottom: 4px solid goldenrod;
+}
+#menu-secondaire a{
+    color: black;
+    text-decoration: none;
+    padding: 40px 10px;
+}
+/* section principal */
+main>.container {
+    width: 90%;
+    margin: 0 auto;
+}
+main>.container-fluid {
+    width: 96%;
+    display: flex;
+}
+/* image/text gauche */
+.left {
+    display: flex;
+    align-items: center;
+}
+.left>.gauche {
+    margin: 100px 0px;
+}
+.left>div>h2 {
+    font-size: 50px;
+}
+.left>div>p {
+    margin: 130px auto;
+    font-size: 22px;   
+}
+/* image/text droite */
+.container > .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.droite>img {
+    margin-left: 150px; 
+}
+.right>div>h2 {
+    font-size: 50px;
+    text-align: right;
+}
+.right>div>p {
+    margin-top: 130px;
+    font-size: 22px;
+    text-align: right;
+}
+/* image acces chambres */
+hr {
+    margin-top: 100px;
+}
+.container-chambre > h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.container-chambre > p {
+    width: 900px;
+    margin: 30px auto;
+    font-size: 22px;
+    text-align: center;
+}
+.accesChambres{
+    position: relative;
+
+}
+.accesChambres > img {
+    height: 950px;  
+}
+.accesChambres:before {
+    content: " ";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.chambre-caption{ 
+        position: absolute;
+        bottom: 350px;
+        text-align: center;
+        left: 42%;
+        color:white;
+        width: 300px;
+}
+    
+.chambre-caption>h3{ font-size: 40px;
+}
+.chambre-caption>small{
+        font-size: 20px;
+}
+    /* restaurant */
+    
+.accesRestaurant{
+    position: relative;
+    margin-top: 20px;
+
+}
+.accesRestaurant>.boutton-slider{ 
+    padding: 15px ;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 200px;
+    left: 41%;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    color: goldenrod;
+
+    
+}
+.restaurant-caption{ 
+    position: absolute;
+    bottom: 350px;
+    text-align: center;
+    left: 35%;
+    color:white;
+    width: 300px;
+
+  }
+
+.restaurant-caption>h3{ font-size: 40px;
+  }
+.restaurant-caption>small{
+    font-size: 20px;
+}
+
+    /* spa */
+.accesSpa{
+    position: relative;
+    margin-top: 20px;
+    left: 50px;
+    
+}
+.accesSpa>.boutton-slider{ 
+    padding: 15px ;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 200px;
+    left: 38%;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    color: goldenrod;
+
+    
+}
+.spa-caption{ 
+    position: absolute;
+    bottom: 350px;
+    text-align: center;
+    left: 32.8%;
+    color:white;
+    width: 300px;
+
+  }
+
+.spa-caption>h3{ font-size: 40px;
+  }
+.spa-caption>small{
+    font-size: 20px;
+}
+    /* footer */
+footer{
+    color: white;
+    background-color: black;
+    height: 650px;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 30px;
+    
+}
+.footer-gauche{
+    width: 75%;
+}
+.footer-gauche>p{
+    margin: 15px;
+}
+.footer-gauche>p>a{
+    color: white;
+}
+.footer-gauche>p>i{
+    margin: 10px;
+    font-size: 17px;  
+}
+.footer-droit{
+    margin-left: 30px;
+    width: 30%;
+}
+.footer-droit>iframe{
+    width: 490px;
+    height:390px;
+    margin-top: 60px;
+    
+}
+.num>p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.division{
+    border: 1px solid white;
+    margin-top: 40px;
+}
+.social>a>i{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+h4{
+    text-align: right;
+    margin-bottom: 6px;
+}
+h5{
+    font-size: 12px;
+}
+/*********************************** chambres **************************************************/
+/*********************************** chambres **************************************************/
+/* description section chambres */
+#chambres>.container {
+    margin: 30px auto;
+}
+#chambres h2{
+    font-size: 50px;
+    text-align: center;
+}
+#chambres p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+/* description section chambres */
+
+#classique_confort {
+    padding-bottom: 20px;
+}
+#classique_confort, #deluxe_suite {
+    display: flex;
+}
+.chr {
+    width: 45%;
+    margin: 0 auto;
+    position: relative; 
+    overflow: hidden;
+    vertical-align: top; 
+}
+.inner_chr {
+    display: none;
+    width: 50%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    color: white;
+    transition: all 5s ease;
+    overflow: hidden; 
+}
+.inner_chr a {
+    text-decoration: none;
+}
+.chr:hover .inner_chr {
+    display: block;
+    /* transition: 5s ease; */
+}
+.about_button {
+    position: absolute;
+    bottom: 0px;
+    right: 187px;
+    padding: 15px 67px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: none;
+    border-top: 1px solid white;
+    color: white;
+}
+.view_button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px 67px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+}
+.about_button:hover {
+    color: goldenrod;
+}
+.view_button:hover {
+    color: goldenrod;
+}
+/************************************** chambre classique/confort/deluxe/suite ********************************/
+.index_classic {
+    width: 40%; 
+    text-align: center;
+    margin: 40px auto;
+}
+.index_classic  h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bedroom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.bedroom_inverted {
+    display: flex;
+    justify-content: space-between;
+}
+.img_classic, .img-txt {
+    width: 100%;
+    height: auto;
+}
+.img-txt {
+    position: relative;
+}
+.img-txt > h2,.img-txt > p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.img-txt h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.img-txt p {
+    font-size: 20px;
+}
+.img-txt a {
+    position: absolute;
+    bottom: 20%;
+    right: 39%;
+    display: inline-block;
+    padding: 20px 60px;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+}
+.img-txt a:hover {
+    background-color: rgb(0, 0, 0);
+    color: goldenrod;
+}
+
+/****************************** SPA ****************************************/
+#paragrapheSpa{
+    text-align: center;
+    border: 2px solid goldenrod;
+    margin: 30px 500px;
+    font-size: 30px;
+    padding: 30px;
+    border-inline-end-color: black;
+    border-inline-start-color: black;
+}
+#textSoin{ text-align: center;
+    margin: 30px 500px;
+    font-size: 30px;
+    padding: 30px;
+}
+#textSoin>h2{
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.imgSpa{
+    margin: 10px;
+    line-height: 50px;
+}
+.imgSpa>figcaption{
+    font-size: 36px;
+    text-align: center;
+}
+
+#decouv>a{
+    text-decoration: none;
+    color: goldenrod;
+    border-bottom: 1px solid black;
+    margin: 0 150px;
+}
+/****************************** SPA SOINS ****************************************/
+#paragrapheSoinsSpa{
+    text-align: center;
+    border: 2px solid goldenrod;
+    margin: 30px 500px;
+    font-size: 30px;
+    padding: 30px;
+    border-inline-end-color: black;
+    border-inline-start-color: black;
+}
+.textSoinsSpa{ text-align: center;
+    margin: 30px 500px;
+    font-size: 25px;
+    padding: 30px;
+}
+.textSoinsSpa>h2{
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+.textSoinsSpaSecondaire{
+    margin: 20px 20px ;
+}
+.textSoinsSpaSecondaire>p{
+    margin: 20px 20px ;
+    text-align: justify;
+}
+.textSoinsSpaSecondaire>span{
+    margin: 0 20px ;
+    margin-left: 25%;
+    color: goldenrod;
+}
+/********************************* RESTAU ***********************************/
+#restaurant_main>.container>h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 0 80px;
+    margin-top: 10px;
+    padding: 30px;
+    border-bottom: 2px solid goldenrod;
+}
+.droite>img {
+    margin-top: 30px;   
+}
+.container-grande-image-restaurant{
+    margin: 0 10px;
+    border: 3px solid goldenrod;
+}
+.container-grande-image-restaurant> h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.container-grande-image-restaurant> p {
+    width: 900px;
+    margin: 30px auto;
+    font-size: 22px;
+    text-align: center;
+}
+.restau-dej-tea{
+    position: relative;
+
+}
+.restau-dej-tea> img {
+    height: 950px;  
+}
+.restau-dej-tea:before {
+    content: " ";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.restaurant-caption{ 
+        position: absolute;
+        bottom: 350px;
+        text-align: center;
+        left: 42%;
+        color:white;
+        width: 300px;
+
+      }
+    
+.restaurant-caption>h3{ font-size: 40px;
+      }
+.restaurant-caption>small{
+        font-size: 20px;
+    }
+
+.pdfrestaurant{
+    color: goldenrod;
+}
